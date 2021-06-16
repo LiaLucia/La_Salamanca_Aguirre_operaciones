@@ -1,0 +1,23 @@
+.contenedorPrincipal {
+    max-width: 100%;
+    margin: 2px;
+    .tabla {
+        background-color: rgba(222, 208, 231, 0.651);
+            td{
+                padding: 2% !important;
+                margin: 2% !important;
+            }
+            th{
+                padding: 2% !important;
+                margin: 2% !important;
+            }
+            ul li {
+                color: rgb(58, 50, 50);
+                list-style-type: circle;
+            }
+            ol li {
+                color:grey;
+            }
+    }
+}
+

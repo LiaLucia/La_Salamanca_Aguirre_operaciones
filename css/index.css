@@ -1,0 +1,270 @@
+.contenedorPrincipal {
+  max-width: 100%;
+  margin: 2px; }
+  .contenedorPrincipal .tabla {
+    background-color: rgba(222, 208, 231, 0.651); }
+    .contenedorPrincipal .tabla td {
+      padding: 2% !important;
+      margin: 2% !important; }
+    .contenedorPrincipal .tabla th {
+      padding: 2% !important;
+      margin: 2% !important; }
+    .contenedorPrincipal .tabla ul li {
+      color: #3a3232;
+      list-style-type: circle; }
+    .contenedorPrincipal .tabla ol li {
+      color: grey; }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: 50% 50%; }
+
+.img {
+  height: 90px;
+  display: flex !important;
+  box-sizing: border-box; }
+
+.imgPrincipal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.textoDerecha__img {
+  height: 90px;
+  display: flex !important;
+  box-sizing: border-box; }
+
+/* SERVICIOS */
+.contenedorPrincipalServicios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.eventosImagen {
+  height: 300px;
+  margin: 10px; }
+
+.eventosImagen img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.eventosTexto {
+  height: 300px;
+  margin: 10px; }
+
+.eventosTexto h2 {
+  text-align: center; }
+
+.restauranteImagen {
+  height: 300px;
+  margin: 10px; }
+
+.restauranteImagen img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.restauranteTexto {
+  height: 300px;
+  margin: 10px; }
+
+.restauranteTexto h2 {
+  text-align: center; }
+
+.cateringImagen {
+  height: 300px;
+  margin: 10px; }
+
+.cateringImagen img {
+  height: 100%;
+  width: 100%; }
+
+.cateringTexto {
+  height: 300px;
+  margin: 10px; }
+
+.cateringTexto h2 {
+  text-align: center; }
+
+/* NOSOTROS */
+.contenedorPrincipalNosotros {
+  margin: 2px; }
+
+.contenedorPrincipalNosotros .contenedorImagen {
+  background-image: url(./img/barNosotros.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: img;
+  padding: 3px; }
+
+.contenedorPrincipalNosotros .nosotros {
+  background-color: #eedf578a;
+  height: 200px; }
+
+.contenedorPrincipalNosotros .nosotros:hover {
+  background-color: #eedf578a;
+  transform: scale(1.01, 1.01); }
+
+.contenedorPrincipalNosotros h1 {
+  text-align: center;
+  margin: 10px;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.contenedorPrincipalNosotros .nuestraHistoria {
+  background-color: #eedf578a;
+  height: 200px; }
+
+.contenedorPrincipalNosotros .nuestraHistoria:hover {
+  background-color: #eedf578a;
+  transform: scale(1.01, 1.01); }
+
+.contenedorPrincipalNosotros .opinion1 {
+  background-color: #ffd208d7;
+  height: 250px;
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros .opinion1:hover {
+  background-color: #ffd208d7;
+  transform: scale(1.01, 1.01);
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros .opinion2 {
+  background-color: #ffd208d7;
+  height: 250px;
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros .opinion2:hover {
+  background-color: #ffd208d7;
+  transform: scale(1.01, 1.01);
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros .opinion3 {
+  background-color: #ffd208d7;
+  height: 250px;
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros .opinion3:hover {
+  background-color: #ffd208d7;
+  transform: scale(1.01, 1.01);
+  margin: 10px 5px; }
+
+.contenedorPrincipalNosotros p {
+  text-align: justify;
+  margin: 10px;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.contenedorPrincipalNosotros .opinion1 p {
+  color: #fff;
+  text-align: center;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.contenedorPrincipalNosotros .opinion1 img {
+  padding: 10px; }
+
+.contenedorPrincipalNosotros .opinion2 p {
+  color: #fff;
+  text-align: center;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.contenedorPrincipalNosotros .opinion2 img {
+  padding: 10px; }
+
+.contenedorPrincipalNosotros .opinion3 p {
+  color: #fff;
+  text-align: center;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.contenedorPrincipalNosotros .opinion3 img {
+  padding: 10px; }
+
+/* CONTACTO */
+.mapaContacto {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 1%; }
+
+.mapaContacto iframe {
+  height: 100%;
+  width: 100%; }
+
+.formularioContacto {
+  width: 100%;
+  height: 100%;
+  padding: 1%; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.formularioContacto fieldset {
+  border-width: 0; }
+
+.formularioContacto h2 {
+  margin: 5px; }
+
+.formularioContacto input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  justify-content: space-evenly; }
+
+.formularioContacto label {
+  display: inline-block;
+  margin: 5px; }
+
+.formularioContacto textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none; }
+
+.formularioContacto button {
+  padding: 16px 32px;
+  margin: 4px 2px; }
+
+.volver {
+  margin: 12px;
+  color: red; }
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .eventosTexto {
+    height: 200px; }
+  .restauranteTexto {
+    height: 200px; }
+  .cateringTexto {
+    height: 200px; } }
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .eventosTexto {
+    height: 200px; }
+  .restauranteTexto {
+    height: 200px; }
+  .cateringTexto {
+    height: 200px; } }
